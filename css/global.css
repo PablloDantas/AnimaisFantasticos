@@ -1,0 +1,44 @@
+:root {
+  --c1: #faf6ed;
+  --c2: #222222;
+}
+
+body,
+h1,
+h2,
+li,
+p,
+dd,
+dt,
+dl {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--c1);
+  color: var(--c2);
+  -webkit-font-smoothing: antialiased;
+  display: grid;
+  grid-template:
+    ".      .            menu       menu"
+    ".      animais      animais    ."
+    ".      animais      animais    ."
+    ".      .            faq        ."
+    ".      .            contato    ."
+    ".      .            copy       copy"/
+    1fr 120px minmax(300px, 900px) 1fr;
+}

@@ -1,0 +1,20 @@
+.animais {
+  grid-area: animais;
+  display: grid;
+  grid-template:
+    "titulo titulo titulo"
+    ".      galeria descricao"/
+    90px 300px 1fr;
+}
+
+.titulo {
+  grid-area: titulo;
+}
+
+.galeria {
+  grid-area: galeria;
+}
+
+.descricao {
+  grid-area: descricao;
+}
