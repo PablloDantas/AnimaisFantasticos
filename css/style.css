@@ -1,8 +1,8 @@
-@import "/css/global.css";
-@import "/css/utilidades.css";
-@import "/css/menu.css";
-@import "/css/animais.css";
-@import "/css/faq.css";
-@import "/css/contato.css";
-@import "/css/copy.css";
-@import "/css/responsivo.css";
+@import "../css/global.css";
+@import "../css/utilidades.css";
+@import "../css/menu.css";
+@import "../css/animais.css";
+@import "../css/faq.css";
+@import "../css/contato.css";
+@import "../css/copy.css";
+@import "../css/responsivo.css";
