@@ -4,6 +4,7 @@
 }
 
 .titulo {
+  padding-left: 20px;
   grid-area: titulo;
   font-family: "Playfair Display SC", georgia;
   font-size: 6rem;
