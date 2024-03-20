@@ -1,3 +1,25 @@
 .menu {
   grid-area: menu;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  background: var(--c3);
+}
+
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 1rem;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  margin-right: 10px;
+  color: var(--c2);
+  text-transform: uppercase;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: bold;
+  font-size: 0.875rem;
+  letter-spacing: 0.1rem;
 }

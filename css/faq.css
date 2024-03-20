@@ -1,3 +1,35 @@
 .faq {
   grid-area: faq;
+  display: grid;
+  grid-template:
+    "titulo titulo"
+    ".      faq-lista"/
+    110px 1fr;
+}
+
+.faq-lista {
+  grid-area: faq-lista;
+}
+
+.faq-lista dt {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: bold;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  color: var(--c4);
+}
+
+.faq-lista dt::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+  margin-right: 10px;
+  background-color: var(--c3);
+}
+
+.faq-lista dd {
+  font-family: Helvetica, Arial;
+  margin-bottom: 8px;
+  margin-left: 30px;
 }

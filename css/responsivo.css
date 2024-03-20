@@ -1,0 +1,58 @@
+@media (max-width: 700px) {
+  body {
+    grid-template:
+      "menu   "
+      "animais"
+      "faq    "
+      "contato"
+      "copy   "/
+      1fr;
+  }
+
+  .titulo {
+    font-size: 3rem;
+  }
+
+  .menu {
+    margin-top: 0px;
+  }
+
+  .menu ul {
+    justify-content: center;
+  }
+
+  .animais {
+    grid-template:
+      ". titulo   titulo    ."
+      ". galeria  descricao ."/
+      10px 100px 1fr 10px;
+    gap: 10px;
+  }
+  .faq {
+    grid-template:
+      ". titulo ."
+      ". faq-lista ."/
+      10px 1fr 10px;
+  }
+  .contato {
+    grid-template:
+      ". titulo ."
+      ". mapa ."
+      ". contato-info ."/
+      10px 1fr 10px;
+  }
+
+  .mapa {
+    margin: 10px 0px;
+  }
+
+  .copy {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 350px) {
+  .titulo {
+    font-size: 2.5rem;
+  }
+}

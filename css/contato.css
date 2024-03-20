@@ -1,3 +1,33 @@
 .contato {
   grid-area: contato;
+  display: grid;
+  grid-template:
+    "titulo titulo titulo"
+    ".      mapa   contato-info"/
+    110px 1fr 1fr;
+}
+
+.mapa {
+  grid-area: mapa;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.contato-info {
+  grid-area: contato-info;
+  margin-top: 20px;
+}
+
+.contato-info li {
+  font-family: Helvetica, Arial;
+  margin-bottom: 16px;
+}
+
+.contato-info li::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+  margin-right: 10px;
+  background-color: var(--c3);
 }

@@ -1,6 +1,8 @@
 :root {
   --c1: #faf6ed;
   --c2: #222222;
+  --c3: #ffbb55;
+  --c4: #ee5544;
 }
 
 body,
@@ -10,7 +12,8 @@ li,
 p,
 dd,
 dt,
-dl {
+dl,
+ul {
   margin: 0px;
   padding: 0px;
 }
@@ -37,8 +40,8 @@ body {
     ".      .            menu       menu"
     ".      animais      animais    ."
     ".      animais      animais    ."
-    ".      .            faq        ."
-    ".      .            contato    ."
+    ".      faq          faq        ."
+    ".      contato      contato    ."
     ".      .            copy       copy"/
     1fr 120px minmax(300px, 900px) 1fr;
 }

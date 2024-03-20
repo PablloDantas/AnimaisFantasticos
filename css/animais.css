@@ -5,16 +5,58 @@
     "titulo titulo titulo"
     ".      galeria descricao"/
     90px 300px 1fr;
-}
-
-.titulo {
-  grid-area: titulo;
+  gap: 20px;
 }
 
 .galeria {
   grid-area: galeria;
+  height: 370px;
+  grid-area: galeria;
+  overflow-y: scroll;
+}
+
+.galeria::-webkit-scrollbar {
+  width: 18px;
+}
+
+.galeria::-webkit-scrollbar-thumb {
+  background: var(--c3);
+  border-left: 4px solid var(--c1);
+  border-right: 4px solid var(--c1);
+}
+
+.galeria::-webkit-scrollbar-track {
+  background: var(--c1);
 }
 
 .descricao {
   grid-area: descricao;
+}
+
+.descricao section {
+  margin-bottom: 48px;
+}
+
+.descricao h2 {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 16px;
+  color: var(--c4);
+}
+
+.descricao h2::before {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 10px;
+  margin-right: 10px;
+  background: var(--c3);
+}
+
+.descricao p {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+  margin-bottom: 16px;
 }
