@@ -9,12 +9,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- scripts -->
+    <script>
+        document.documentElement.className += " js"
+    </script>
     <!-- style sheets -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-    <nav class="menu">
+    <nav class="menu js-menu">
         <ul>
             <li>
                 <a href="#animais">Animais</a>
@@ -33,7 +37,7 @@
 
     <section class="grid-section animais" id="animais">
         <h1 class="titulo">Animais Fantásticos</h1>
-        <ul class="galeria">
+        <ul class="galeria js-tabmenu">
             <li>
                 <img src="img/imagem1.jpg">
             </li>
@@ -53,7 +57,7 @@
                 <img src="img/imagem6.jpg">
             </li>
         </ul>
-        <div class="descricao">
+        <div class="descricao js-tabconteudo">
             <section>
                 <h2>Raposa</h2>
                 <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</p>
@@ -101,7 +105,7 @@
 
     <section class="grid-section faq" id="faq">
         <h1 class="titulo">FAQ</h1>
-        <dl class="faq-lista">
+        <dl class="faq-lista js-accordion">
             <dt>Qual a idade dos animais?</dt>
             <dd>A expectativa de vida varia significativamente entre os animais mencionados. Raposas podem viver até 14 anos na natureza, esquilos cerca de 6 a 12 anos, ursos podem chegar a 20-30 anos, lobos aproximadamente 8-13 anos, macacos dependendo da espécie podem viver de 15 a 50 anos, e leões cerca de 10-14 anos na natureza.</dd>
             <dt>Por que eles são fantásticos?</dt>
@@ -130,5 +134,7 @@
         <p>Alguns direitos reservados.</p>
     </footer>
 </body>
+
+<script src="./main.js"></script>
 
 </html>

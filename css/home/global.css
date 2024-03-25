@@ -5,6 +5,10 @@
   --c4: #ee5544;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body,
 h1,
 h2,
