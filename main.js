@@ -58,6 +58,6 @@ function initAnimaScroll() {
   animaScroll();
 }
 
+initAnimaScroll();
 initTavNav();
 initAccordion();
-initAnimaScroll();
